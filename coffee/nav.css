@@ -1,0 +1,114 @@
+/* Navbar styles */
+.navbar {
+    background-color:white;
+    overflow: hidden;
+    padding: 10px 16px;
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar a {
+    float: left;
+    display: inline;
+    color: #040404;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-right: 30px ;
+}
+.navbar a img:hover {
+    background-color: transparent;
+}
+
+.navbar a:hover {
+ background-color: #787575;
+    color: rgb(255, 255, 255);
+}
+
+.navbar .dropdownbtn {
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.navbar .dropdownbtn .nav-link {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 10px;
+    background-color: inherit;
+    margin: 0;
+}
+.navlinks{
+    display: flex;
+}
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    margin-top: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.navbar .dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-right: 0px;
+
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: #ddd;
+}
+div .navlinks{
+    margin-left: 100px;
+}
+.navbar .dropdownbtn:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .navlink {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  
+}
+
+.navbar .navlink:hover {
+    background-color: #787575;
+    color: rgb(255, 255, 255);
+}
+.search{
+    padding: 20px;
+    padding-right: 20px;
+    font-size: small;
+}
+.signup{
+    background-color: #8C5637;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.signup:hover{
+    background-color:white;
+    color: #8C5637;
+    border: 2px #8C5637 ;
+    }

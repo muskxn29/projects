@@ -1,0 +1,220 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bgvideo{
+margin-top: 0px;
+top:0;
+position: absolute;
+right: 0;
+left: 0;
+padding-top: 0;
+width: 100%;
+z-index: -1;
+height: 82%;
+display: block;
+object-fit: cover;
+}
+.heading{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.dilever{
+    font-family: "DM Serif Text", serif;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+  font-style: italic;
+}
+.content{
+    background-color: #0000006f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 520px;
+}
+.shopnow{
+    margin-top: -30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    align-self: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left:600px;
+    color:  #8C5637;
+    position: absolute;
+    top: 530px;
+    transition: 2s;
+    box-shadow: 1px 1px 1px 2px rgba(162, 162, 162, 0.642);
+}
+.shopnow:hover{
+    background-color: #8C5637;
+    color: white;
+    box-shadow: 1px 1px 2px 3px rgba(133, 133, 133, 0.714);
+
+
+}
+.sec2{
+    position: absolute;
+    top: 600;
+    right: 0;
+ left: 0;
+}
+.thought{
+    text-align: center;
+    font-size: 20px;
+    color: #8C5637;
+    font-family: "DM Serif Text", serif;
+}
+.nh{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+}
+.col{
+    margin-top: 50px;
+    display: flex;
+    background-image: url('../../img.freepik.com/free-vector/abstract-glowing-wave-light-effect-background-design_1017-2549366c3.jpg?t=st=1724322094~exp=1724325694~hmac=7366cde26b71aa906baef0ba91f0220a7feab5e565a358d09604648695d8b9a6&amp;w=826');
+    right: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.col1{
+    margin-left: 70px;
+ width: 380px;
+}
+.col1h{
+    font-size: 25px;
+    color: #0a0808;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col1p{
+    color: #737373;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.col2 {
+    margin-top: 70px;
+    margin-left: 80px;
+    width: 400px;
+}
+.col2p{
+    color: #737373;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    width: 400px;
+}
+.col3{
+ margin-top: 200px;
+ width: 400px;
+ margin-left: 60px;
+}
+.learnbtn{
+     text-decoration: none; 
+     background-color: #8C5637;
+     color: white;
+    padding:10px;   
+    transition: 1s;
+}
+.learnbtn:hover{
+    color: #8C5637;
+    background-color: white;
+    border: 2px solid #8C5637;
+}
+.col3 img{
+    margin-bottom: 40px;
+}
+.menu{
+    left: 0;
+    right: 0;
+    top: 1680px;
+    position: absolute;
+    background-image: url('images/cofmenbg.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.transmenu{
+    background-color: #0a0808be;
+    color: #ffff;
+    padding: 100px;
+}
+.menp{
+    font-size: 50px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.menbtn{
+    text-align: center;
+    text-decoration: none;
+    color: #8C5637;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+border: 1px solid #8C5637;
+transition: 2s;
+}
+.menbtn:hover{
+    background-color: #8C5637;
+    color: white;
+}
+.sec3{
+    top: 2180;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.sect{
+    /* background-color: #ffffff; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.cards{
+ display: flex;
+ padding-left: 70px;
+ padding-top: 0;
+ margin-bottom: 100px;
+}
+.card{
+    background-color: white;
+    width: 300px;
+    display: block;
+    margin-right:120px ;
+    text-align: center;
+    box-shadow: 0px 5px 10px 0px #2b2b2b70;
+}
+.card:hover{
+    box-shadow: 0px 15px 15px 0px #36363665;
+}
+.card-heading{
+   font-size: 25px;
+    padding-bottom: 20px;
+    color: #050404;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+}
+.body{
+    padding: 20px;
+}
+.card-para{
+    font-size: 20px;
+}
+
+footer{
+    margin-top: -2600px;
+}
